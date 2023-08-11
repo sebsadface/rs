@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "resource_market",
+    "roulette",
+    "socialism_dao",
+    "tictactoe",
+    "simple-dex",
+    "psp22",
+    "psp22-traits"
+]
+[profile.release]
+panic = "unwind"

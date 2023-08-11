@@ -1,0 +1,41 @@
+[package]
+name = "cryptography_in_rust"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[features]
+optional-tests = []
+slow-tests = []
+
+[dependencies]
+blake2 = "0.10.6"
+bip32 = "0.4.0"
+bitcoin = "0.29.2"
+hex = "0.4.3"
+byteorder = "1.4"
+strum = { version = "0.25", features = ["derive"] }
+rand = { version = "0.8.5", features = ["alloc", "small_rng"] }
+rand_core = { version = "0.6.4", features = ["getrandom"] }
+random_word = "0.3.1"
+phf = { version = "0.11", features = ["macros"] }
+sp-core = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "polkadot-v0.9.42", features = [
+    "full_crypto",
+    "std",
+] }
+sp-runtime = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "polkadot-v0.9.42", features = [
+    "std",
+] }
+schnorrkel = { version = "0.10.2", features = [
+    "preaudit_deprecated",
+    "u64_backend",
+    "std",
+] }
+aes = "0.8.1"
+aes-gcm-siv = "0.11.1"
+reed-solomon = "0.2.1"
+# We need to use x25519-dalek-ng here because x25519-dalek's version of zeroize conflicts with
+# _absolutely everything_ 😑
+x25519-dalek-ng = "1.1.1"
+sha2 = "0.9"
+curve25519-dalek = "3"

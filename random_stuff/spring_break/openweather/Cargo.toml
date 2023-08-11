@@ -1,0 +1,24 @@
+[package]
+name = "openweather"
+version = "0.0.1"
+
+[lib]
+name = "openweather"
+path = "src/lib.rs"
+[dependencies.reqwest]
+version = "0.8.6"
+
+[dependencies.serde]
+version = "1.0.70"
+
+[dependencies.serde_derive]
+version = "1.0.70"
+
+[dependencies.serde_json]
+version = "1.0"
+
+[dependencies.time]
+version = "0.1.40"
+
+[dependencies.url]
+version = "1.5.1"
