@@ -1,4 +1,4 @@
-# README: Random Committer 🎲
+# Random Committer 🎲
 
 Welcome to Random Committer, a magical program that adds a sprinkle of chaos to your GitHub repository by making random commits at random hour intervals. Think of it as a digital jester, keeping your repository lively and unpredictable!
 
