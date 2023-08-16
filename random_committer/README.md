@@ -39,7 +39,7 @@ This tool was designed with whimsy in mind. Maybe you want to keep your GitHub s
 - **Do not use on critical repositories.** Ideal for experiments, personal projects, or repositories where a touch of chaos is welcomed.
 
 ## 📜 License
-This project is licensed under the MIT License. See the [LICENSE.md](https://github.com/sebsadface/fun_stuff/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE.md](https://github.com/sebsadface/rs/blob/main/LICENSE) file for details.
 
 ## 🎉 Have Fun!
 Embrace the unpredictability and enjoy the whimsical dance of randomness. Happy committing! 🚀
