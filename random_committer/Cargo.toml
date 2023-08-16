@@ -1,0 +1,12 @@
+[package]
+name = "auto_commit"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+git2 = "0.13.12"
+rand = "0.8.3"
+rust-crypto = "0.2.36"
+chrono = "0.4.19"
